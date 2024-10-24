@@ -106,7 +106,7 @@ do not work if the SAML client runs on Java 17 or higher.
 +
 For client-side clients that perform browser logins. As it is not possible to ensure that secrets can be kept safe with client-side clients, it is important to restrict access by configuring correct redirect URIs.
 
-*Display client on screen*:: This switch applies if *Consent Required* is *Off*.
+*Display client on screen*:: This switch applies if *Consent Required* is *On*.
 * _Off_
 +
 The consent screen will contain only the consents corresponding to configured client scopes.
